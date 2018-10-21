@@ -1,15 +1,9 @@
-# Google Photos Embed Code Generator
+# GPEG for Harukin+
 
-## ここは何？
+## TODO
 
-Googleフォトのアルバム内にある写真から埋め込みタグを生成します。
-
-## 利用方法
-
-- このページ内にある「GOOGLEフォトのアルバム一覧を開く...  」ボタンを押すと自動的にGoogleよりoAuthの認証が実行されます（この時点で同意できない方はご利用の中断をお願い致します）
-- 次にGoogleフォトのアルバム一覧が表示されますので、埋め込みタグを生成させたいアルバム内の写真を選択して下さい
-- 選択後に自動的に選択したアルバム情報と選択した写真の埋め込みタグが生成されます
-
+- やらなきゃいけないことの把握
+ 
 ## 参考
 
 - [Picker  |  Google Developers](https://developers.google.com/picker/)
@@ -20,18 +14,22 @@ Googleフォトのアルバム内にある写真から埋め込みタグを生�
 - [howdy39/google-picker-api-demo](https://github.com/howdy39/google-picker-api-demo)
 - [Material Design Lite](https://getmdl.io/index.html)
 - [Moment.js | Home](http://momentjs.com/)
+- [hrsano645/google-photos-embed-code-generator](https://github.com/hrsano645/google-photos-embed-code-generator)
+ 
+## ターゲット環境
+- iPhone
+- iPad
+- Android Chrome
+- Chrome
+- Firefox
+- Edge...?   
 
-## 推奨環境
 
-推奨環境（開発環境）は以下のとおりです
+- Opera ❌
+- IE ❌
 
-- Chrome 52
-- Android Chrome 52
-- Microsoft Edge (PC)
-
-javascript Template literalを利用しているため、chromeとfirefox以外は基本的に非推奨です
-
-[Template literal - JavaScript | MDN](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/template_strings)
+各環境、1年前以降にリリースされた一番古いバージョンまでサポート。PCブラウザはデスクトップ及びラップトップのWindows、macOS、Linux版
+ 
 
 ## ライセンス情報
 
